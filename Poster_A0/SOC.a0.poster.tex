@@ -1,0 +1,205 @@
+\documentclass[portrait,a0]{a0poster}
+\usepackage{ascmac}
+\usepackage[dvips]{graphicx,epsfig,color}
+\usepackage{multicol}
+\usepackage{multirow}
+\setlength{\columnsep}{20pt}
+\pagestyle{empty}
+\def\spaceV{\ \ \ \ \ }
+\def\spaceX{\ \ \ \ \ \ \ \ \ \ }
+\def\spaceXV{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\def\spaceXX{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\input{colordef.01.tex}
+\begin{document}
+\linespread{1.4}\selectfont
+%%----- Title -----%%
+\begin{center}
+\color[cmyk]{1,1,0,0}
+\fontsize{128}{20}\selectfont
+Self-Organizing Clustering \\ 日本語OK
+\end{center}
+\begin{center}
+\color[cmyk]{1,1,0,0}
+\fontsize{56}{20}\selectfont
+-- A Novel Non-Hierarchical Method for Clustering Large Amount of DNA Sequences --
+\end{center}
+%%----- /Title -----%%
+\vspace{9mm}
+%%----- Author(s) and Affiliation(s) -----%%
+\color[cmyk]{1,1,0,0.4}
+\fontsize{30}{20}\selectfont
+\begin{center} \begin{tabular}[t]{ccccc}
+\bf Kou Amano\footnotemark[1] \footnotemark[2] & \hspace{20mm} & \bf Hidemitsu Nakamura\footnotemark[2] & \hspace{20mm} & \bf Hiroaki Ichikawa\footnotemark[2] \\
+\tt amano@ulis.ac.jp & \  & \tt hide7087@affrc.go.jp & \  & \tt hichkw@affrc.go.jp \\
+\end{tabular} \end{center}
+\begin{center} \begin{tabular}{rl}
+\tt \footnotemark[1] & \tt University of Library and Information Science, 1-2 Kasuga, Tsukuba, Ibaraki 305-8550 Japan \\
+\tt \footnotemark[2] & \tt National Institute of Agrobiological Sciences, 2-1-2 Kannondai, Tsukuba, Ibaraki 305-8602 Japan \\
+\end{tabular} \end{center}
+%%----- /Author(s) and Affiliation(s) -----%%
+\vspace{10mm}
+%%----- Multi Column Region -----%%
+\linespread{1.6}\fontsize{32}{20}\selectfont
+\begin{multicols}{3}
+\color[cmyk]{0,0,0,1}
+\section{Introduction}
+\
+
+\vspace{-40pt} To cluster and characterize DNA sequences with focusing on the oligonucleotide frequency, we developed a novel method and program package designated as Self-Organizing Clustering (SOC).
+
+Being based on Self-Organizing Map (SOM)\cite{Ikemura-2001}, the algorithm of SOC made use of K-means with modification.
+
+\vspace{-5mm}\section{Aim of SOC}
+\
+
+\vspace{-40pt} The SOC is a non-hierarchical clustering method to cluster the samples with multi-dimensional data into several groups.
+
+Among several non-hierarchical methods for clustering, the aim of SOC is to cluster a huge amount of specimens each comprised of a long stretch of nucleotide sequence.
+
+\vspace{-5mm}\section{Existing tools vs. SOC}
+
+%%----- Table 1 -----%%
+\begin{center}
+\linespread{0.9}\selectfont 
+\begin{tabular}{cccp{80mm}}
+\multicolumn{4}{l}{\textit{Table 1. Comparison of clustering tools}}\\
+\hline
+\textgt{program} & \textgt{cost} & \textgt{performance} & \hspace{10mm}\textgt{features}\\
+\hline
+\\
+\color[cmyk]{0,1,1,0}\textbf{SOC} & \color[cmyk]{0,1,1,0}Free & \color[cmyk]{0,1,1,0}Fast & \small \begin{itemize}
+	\vspace{-9mm}
+	\color[cmyk]{0,1,1,0}\item[] Specialized for clustering.
+	\color[cmyk]{0,1,1,0}\item[] Not using neural-networks.
+	\color[cmyk]{0,1,1,0}\item[] Not based on alignment. \end{itemize}\\
+SOM & Free  & Fast & \small \begin{itemize}
+	\vspace{-9mm}
+	\item[] Original purpose is simulation of learning and memory. \end{itemize}\\
+BL-SOM & Expensive & Fast & \small \begin{itemize}
+	\vspace{-9mm}
+	\item[] Original purpose is data mining.
+	\item[] Makes two-dimensional map.
+	\item[] Clusters are separated by borders on map. \end{itemize}\\
+CLUSTALX/W & Free & Slow & \small \begin{itemize}
+	\vspace{-9mm}
+	\item[] Based on alignment. \end{itemize}\\
+\hline
+\\
+%\multicolumn{4}{l}{\textit{Table 1. Comparison of clustering tools}}\\[-6mm]
+\end{tabular}
+\end{center}
+%%----- /Table 1 -----%%
+
+\vspace{-3mm}\section{How does the SOC Work?}
+\
+
+\vspace{-40pt} SOC works as follows.
+\vspace{3mm}
+\begin{flushleft}
+\input{Chart.tex}
+\end{flushleft}
+
+\vspace{-5mm}\section{Clustering genes from 17 bacteria}
+\
+
+\vspace{-40pt} We used a total of 800 genes extracted from 17 bacterial genomes as a set of test samples.
+The lengths of the DNA sequences were 2.0 to 2.2 kb. 
+When trinucleotide frequency was analyzed, the samples were divided into eight clusters (Table 2).
+Genes derived from a given bacterial species were classified into a particular cluster with high accuracy.
+
+\section{Clustering \textit{nifH} genes}
+\
+
+\vspace{-40pt} Nitrogen fixation by the microorganisms living in termite's gut is one of the crucial aspects of symbiosis, since termites usually thrive on a nitrogen-poor diet.
+ 
+The \textit{nifH} gene encodes dinitrogenase reductase and has often been used as a molecular marker for nitrogen-fixing microorganisms. Many different \textit{nifH} genes, which might be originated from several microbial species, are isolated from the gut of a single termite. 
+Ohkuma {\em et al.}\cite{Ohkuma} isolated \textit{nifH} genes from DNA preparations extracted from guts of nine termite species, and clustered them into 10 major groups (Table 3). They used CLUSTALW and PHYLIP program package to draw the phylogenetic trees. According to the classification by Ohkuma {\em et al.}, gene shown by the same color belong to the same cluster.
+
+We clustered 145 \textit{nifH} genes by the SOC. Interestingly, many genes in the same group classified by the CLUSTALW were dispersed into two or more groups.
+
+\section{Conclusions}
+
+\begin{itemize}
+\item Though some clusters were consisted of genes from two or more species, the SOC grouped DNA sequences from a given bacterial species into a particular cluster with high accuracy in the classification of 800 genes from 17 bacterial genomes.
+In progress is the further clustering of such clusters by using the SOC hierarchically.
+\item We classified \textit{nifH} genes from the gut of diverse termites by the SOC. The grouping pattern of the SOC was quite different from that of the CLUSTALW. 
+Although further analysis would be needed to explain what the grouping pattern of the SOC means, 
+our results strongly indicate that the SOC might be of use to classify a complex pool of DNA sequences by a novel strategy.
+\end{itemize}
+%%----- Table 2 -----%%
+\input{Table-2.tex}
+%%----- /Table 2 -----%%
+\vspace{5mm}
+%%----- Table 3 -----%%
+\input{Table-3.02.tex}
+%%----- /Table 3 -----%%
+
+%%----- Acknowledgments -----%%
+\section*{Acknowledgments} \linespread{1.4}\fontsize{25}{20}\selectfont
+\
+
+\vspace{-40pt} We thank Dr. N. Onodera (School of Library and Information Science, University of Tsukuba),
+Dr. T. Ikemura (National Institute of Genetics),
+Dr. T. Maeshiro (Research Center for Knowledge Communities, University of Tsukuba),
+Mr. T. Uchida (NABE International),
+and Mr. T. Kozuki (Xanagen) 
+for helpful suggestions.
+
+We also thank Dr. M. Ohkuma (RIKEN) for providing DNA data of \textit{nifH} genes. \normalfont
+%%----- /Acknowledgments -----%%
+
+%%----- References -----%%
+\vspace{-6mm}
+\begin{thebibliography}{10}
+%\bibitem{Ikemura-1998}
+%Ikemura, T.
+%Identification of gene regulatory networks by strategic gene
+%disruptions and gene overexpressions,
+%{\em Proc. 9th ACM-SIAM Symp. Discrete Algorithms}, 695--702, 1998.
+
+\bibitem{Ikemura-2001}
+Kanaya, S., Kinouchi, M., Abe, T., Kudo, Y., Yamada, Y., Nishi, T., Mori, H., and Ikemura, T.,
+Analysis of codon usage diversity of bacterial genes with a self-organizing map(SOM): characterization of horizontally transferred genes with emphasis on the {\it E. coli} O157 genome,
+{\em Gene}, 276:89--99, 2001.
+%
+%\bibitem{Koho}
+%Kohonen, T.
+%{\em Self-organizing maps}, Springer, 1995.
+
+\bibitem{Ohkuma}
+Ohkuma, M., Noda, S., and Kudo, T.,
+Phylogenetic Diversity of Nitrogen Fixation Genes in the Symbiotic Microbial Community in the Gut of Termites,
+{\em Applied and Environmental Microbiology}, 65(11):4926--4934, 1999.
+\end{thebibliography}
+%%----- /References -----%%
+\vspace{10mm}
+%%----- Date and JSBI logo-----%%
+\begin{flushright}
+\color[cmyk]{0,0,0,1}\fontsize{28}{20}\selectfont \textgt{GIW2003 15-17 Dec.}
+\epsfig{file=JSBi2-bk.ps,height=8mm}
+\end{flushright}
+%%----- /Data and JSBi Logo -----%%
+\end{multicols}
+%%----- /Multi Column Region -----%%
+
+%%----- Title Logo -----%%
+%\vspace{20mm}
+\begin{center}
+\epsfig{file=SOC_TITLE_LOGO.ps,height=30mm}
+\end{center}
+%%----- /Title Logo -----%%
+
+%%----- NIAS Logo -----%%
+%vspace{20mm}
+\begin{center}
+\epsfig{file=nias_logo.ps,height=45mm}
+\end{center}
+%%----- /NIAS Logo -----%%
+
+%%----- For print all image -----%%
+\begin{center}
+\epsfig{file=WhiteSpace.ps,height=20mm}
+\end{center}
+%%----- For print all image -----%%
+
+\end{document}

@@ -1,0 +1,401 @@
+This is pTeX, Version 3.141592-p3.1.8 (euc) (Web2C 7.5.4) (format=platex-euc 2006.1.11)  30 MAR 2006 13:40
+**SOC.a0.poster.tex
+(./SOC.a0.poster.tex
+pLaTeX2e <2005/01/04>+0 (based on LaTeX2e <2003/12/01> patch level 0)
+(./a0poster.cls
+Document Class: a0poster 1997/05/07 v1.21b a0poster class (GK, MW)
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen118
+)
+\xkoord=\count89
+\ykoord=\count90
+\xscale=\count91
+\yscale=\count92
+\tausch=\dimen119
+\Ausgabe=\write3
+\openout3 = `a0header.ps'.
+
+ (./a0size.sty
+File: a0size.sty 1997/05/06 v1.21b a0poster class (GK, MW)
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 218.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 218.
+\big@size=\dimen120
+))
+(/usr/share/texmf/ptex/platex/base/ascmac.sty
+(/usr/share/texmf/ptex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen121
+\@saveybaselineshift=\dimen122
+\scb@x=\box41
+\scscb@x=\box42
+\@bw=\dimen123
+\@nbox=\box43
+\@nbody=\box44
+\@scw=\dimen124
+\@itemh=\dimen125
+\@iboxpos=\toks15
+\@iboxstr=\box45
+\@bwsp=\box46
+\@@bwsp=\box47
+\@bcal=\count93
+\shaderule=\dimen126
+))
+(/home/kamano/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen129
+\epsfysize=\dimen130
+)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count94
+\mult@box=\box48
+\multicol@leftmargin=\dimen131
+\c@unbalance=\count95
+\c@collectmore=\count96
+\doublecol@number=\count97
+\multicoltolerance=\count98
+\multicolpretolerance=\count99
+\full@width=\dimen132
+\page@free=\dimen133
+\premulticols=\dimen134
+\postmulticols=\dimen135
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box49
+\last@line=\box50
+\mult@rightbox=\box51
+\mult@grightbox=\box52
+\mult@gfirstbox=\box53
+\mult@firstbox=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\c@columnbadness=\count100
+\c@finalcolumnbadness=\count101
+\last@try=\dimen136
+\multicolovershoot=\dimen137
+\multicolundershoot=\dimen138
+\mult@nat@firstbox=\box72
+\colbreak@box=\box73
+)
+(/usr/share/texmf/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen139
+) (./colordef.01.tex)
+(./SOC.a0.poster.aux)
+\openout1 = `SOC.a0.poster.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <128> not available
+(Font)              size <107.0> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <56> not available
+(Font)              size <51.6> substituted on input line 23.
+
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 31.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 31.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15> not available
+(Font)              size <14.4> substituted on input line 31.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 31.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <15> not available
+(Font)              size <14.4> substituted on input line 31.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <30> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <30> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <32> not available
+(Font)              size <29.86> substituted on input line 42.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <35.83> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <35.83> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 64.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22.3999> not available
+(Font)              size <20.74> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <32> not available
+(Font)              size <29.86> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22.3999> not available
+(Font)              size <20.74> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <32> not available
+(Font)              size <29.86> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22.3999> not available
+(Font)              size <20.74> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <32> not available
+(Font)              size <29.86> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <22.3999> not available
+(Font)              size <20.74> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 64.
+
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 65.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 65.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <32> not available
+(Font)              size <29.86> substituted on input line 65.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <32> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <32> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <32> not available
+(Font)              size <29.86> substituted on input line 70.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/20.74 Not us-ing neural-
+ []
+
+(./Chart.tex
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 4--7
+[] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 8--11
+[] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 12--16
+[][] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 17--20
+[] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 21--24
+[] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 25--28
+[] 
+ []
+
+
+Overfull \hbox (12.00002pt too wide) in paragraph at lines 29--33
+[][] 
+ []
+
+)
+
+LaTeX Font Warning: Font shape `JT1/mc/bx/it' undefined
+(Font)              using `JT1/mc/bx/n' instead on input line 110.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/bx/it' undefined
+(Font)              using `JY1/mc/bx/n' instead on input line 110.
+
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 116.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 116.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 123.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <32> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 123.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <32> not available
+(Font)              size <29.86> substituted on input line 123.
+
+(./Table-2.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <32> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <32> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/it' in size <32> not available
+(Font)              size <29.86> substituted on input line 8.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 48.
+
+) (./Table-3.02.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--122
+[]\OT1/cmr/m/n/24.88 CDN27, []NKN10, []NKN14, []NKN15,
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <22> not available
+(Font)              size <20.74> substituted on input line 179.
+
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <28> not available
+(Font)              size <29.86> substituted on input line 178.
+
+File: JSBi2-bk.ps Graphic file (type eps)
+<JSBi2-bk.ps>
+File: SOC_TITLE_LOGO.ps Graphic file (type eps)
+ <SOC_TITLE_LOGO.ps>
+File: nias_logo.ps Graphic file (type eps)
+ <nias_logo.ps>
+File: WhiteSpace.ps Graphic file (type eps)
+ <WhiteSpace.ps> [1
+
+]
+(./SOC.a0.poster.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 21.0pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1147 strings out of 95552
+ 17383 string characters out of 1191720
+ 135712 words of memory out of 1000000
+ 4293 multiletter control sequences out of 10000+50000
+ 23767 words of font info for 94 fonts, out of 500000 for 2000
+ 14 hyphenation exceptions out of 1000
+ 37i,14n,21p,406b,653s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on SOC.a0.poster.dvi (1 page, 28904 bytes).
