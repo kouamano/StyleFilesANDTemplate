@@ -1,0 +1,209 @@
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2020.1.7)  7 JAN 2020 15:31
+ restricted system commands enabled.
+**ex2
+(./ex2.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/kamano/.texlive2018/texmf-var/luatex-cache/ge
+neric)(using read cache: /usr/share/texlive/texmf-var/luatex-cache/generic /home
+/kamano/.texlive2018/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/kamano/.texlive2018/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/kamano/.texlive2018/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.101 seconds
+Babel <3.17> and hyphenation patterns for 1 language(s) loaded.
+
+! LaTeX Error: File `ltjsarticle.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+(./ex2.aux)
+\openout1 = ex2.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{document}
+                  
+? 
+! Undefined control sequence.
+l.4 \section
+          {はじめてのLua\TeX-ja}
+? 
+! Undefined control sequence.
+l.6 \subsection
+             {出たかな？}
+? 
+luaotfload | db : Font names database loaded from /home/kamano/.texlive2018/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/kamano/.te
+xlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{document}
+                 
+? 
+[1
+Missing character: There is no は (U+306F) in font nullfont!
+Missing character: There is no じ (U+3058) in font nullfont!
+Missing character: There is no め (U+3081) in font nullfont!
+Missing character: There is no て (U+3066) in font nullfont!
+Missing character: There is no の (U+306E) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no X (U+0058) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no j (U+006A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no ち (U+3061) in font nullfont!
+Missing character: There is no ゃ (U+3083) in font nullfont!
+Missing character: There is no ん (U+3093) in font nullfont!
+Missing character: There is no と (U+3068) in font nullfont!
+Missing character: There is no 日 (U+65E5) in font nullfont!
+Missing character: There is no 本 (U+672C) in font nullfont!
+Missing character: There is no 語 (U+8A9E) in font nullfont!
+Missing character: There is no が (U+304C) in font nullfont!
+Missing character: There is no 出 (U+51FA) in font nullfont!
+Missing character: There is no る (U+308B) in font nullfont!
+Missing character: There is no か (U+304B) in font nullfont!
+Missing character: There is no な (U+306A) in font nullfont!
+Missing character: There is no ？ (U+FF1F) in font nullfont!
+Missing character: There is no 出 (U+51FA) in font nullfont!
+Missing character: There is no た (U+305F) in font nullfont!
+Missing character: There is no か (U+304B) in font nullfont!
+Missing character: There is no な (U+306A) in font nullfont!
+Missing character: There is no ？ (U+FF1F) in font nullfont!
+Missing character: There is no 長 (U+9577) in font nullfont!
+Missing character: There is no い (U+3044) in font nullfont!
+Missing character: There is no 文 (U+6587) in font nullfont!
+Missing character: There is no 章 (U+7AE0) in font nullfont!
+Missing character: There is no を (U+3092) in font nullfont!
+Missing character: There is no 入 (U+5165) in font nullfont!
+Missing character: There is no 力 (U+529B) in font nullfont!
+Missing character: There is no す (U+3059) in font nullfont!
+Missing character: There is no る (U+308B) in font nullfont!
+Missing character: There is no と (U+3068) in font nullfont!
+Missing character: There is no ち (U+3061) in font nullfont!
+Missing character: There is no ゃ (U+3083) in font nullfont!
+Missing character: There is no ん (U+3093) in font nullfont!
+Missing character: There is no と (U+3068) in font nullfont!
+Missing character: There is no 右 (U+53F3) in font nullfont!
+Missing character: There is no 端 (U+7AEF) in font nullfont!
+Missing character: There is no の (U+306E) in font nullfont!
+Missing character: There is no と (U+3068) in font nullfont!
+Missing character: There is no こ (U+3053) in font nullfont!
+Missing character: There is no ろ (U+308D) in font nullfont!
+Missing character: There is no で (U+3067) in font nullfont!
+Missing character: There is no 折 (U+6298) in font nullfont!
+Missing character: There is no り (U+308A) in font nullfont!
+Missing character: There is no 返 (U+8FD4) in font nullfont!
+Missing character: There is no さ (U+3055) in font nullfont!
+Missing character: There is no れ (U+308C) in font nullfont!
+Missing character: There is no る (U+308B) in font nullfont!
+Missing character: There is no か (U+304B) in font nullfont!
+Missing character: There is no な (U+306A) in font nullfont!
+Missing character: There is no ？ (U+FF1F) in font nullfont!
+Missing character: There is no 大 (U+5927) in font nullfont!
+Missing character: There is no 丈 (U+4E08) in font nullfont!
+Missing character: There is no 夫 (U+592B) in font nullfont!
+Missing character: There is no そ (U+305D) in font nullfont!
+Missing character: There is no う (U+3046) in font nullfont!
+Missing character: There is no な (U+306A) in font nullfont!
+Missing character: There is no 気 (U+6C17) in font nullfont!
+Missing character: There is no が (U+304C) in font nullfont!
+Missing character: There is no す (U+3059) in font nullfont!
+Missing character: There is no る (U+308B) in font nullfont!
+Missing character: There is no け (U+3051) in font nullfont!
+Missing character: There is no ど (U+3069) in font nullfont!
+Missing character: There is no 。 (U+3002) in font nullfont!
+Missing character: There is no ち (U+3061) in font nullfont!
+Missing character: There is no ょ (U+3087) in font nullfont!
+Missing character: There is no っ (U+3063) in font nullfont!
+Missing character: There is no と (U+3068) in font nullfont!
+Missing character: There is no 不 (U+4E0D) in font nullfont!
+Missing character: There is no 安 (U+5B89) in font nullfont!
+Missing character: There is no だ (U+3060) in font nullfont!
+Missing character: There is no け (U+3051) in font nullfont!
+Missing character: There is no ど (U+3069) in font nullfont!
+Missing character: There is no 何 (U+4F55) in font nullfont!
+Missing character: There is no 事 (U+4E8B) in font nullfont!
+Missing character: There is no も (U+3082) in font nullfont!
+Missing character: There is no 挑 (U+6311) in font nullfont!
+Missing character: There is no 戦 (U+6226) in font nullfont!
+Missing character: There is no だ (U+3060) in font nullfont!
+Missing character: There is no よ (U+3088) in font nullfont!
+Missing character: There is no ね (U+306D) in font nullfont!
+Missing character: There is no 。 (U+3002) in font nullfont!
+] (./ex2.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 30 strings out of 494445
+ 100000,89155 words of node,token memory allocated
+ 284 words of node memory still in use:
+   1 hlist, 1 vlist, 2 glue, 2 attribute, 35 glue_spec, 2 attribute_list, 1 writ
+e nodes
+   avail lists: 1:1,2:23,3:2,4:1,5:19,6:1,7:106,8:1,9:7,11:1
+ 4274 multiletter control sequences out of 65536+600000
+ 15 fonts using 723239 bytes
+ 21i,4n,12p,98b,124s stack positions out of 5000i,500n,10000p,200000b,100000s
+Output written on ex2.pdf (1 page, 829 bytes).
+
+PDF statistics: 8 PDF objects out of 1000 (max. 8388607)
+ 4 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
