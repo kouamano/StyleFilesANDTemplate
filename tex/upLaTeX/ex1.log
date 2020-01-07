@@ -1,0 +1,143 @@
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2020.1.7)  7 JAN 2020 15:22
+ restricted system commands enabled.
+**ex1.tex
+(./ex1.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/kamano/.texlive2018/texmf-var/luatex-cache/ge
+neric)(using read cache: /usr/share/texlive/texmf-var/luatex-cache/generic /home
+/kamano/.texlive2018/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/kamano/.texlive2018/texmf-var/
+luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/kamano/.texlive2018/texmf-var/
+luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.099 seconds
+Babel <3.17> and hyphenation patterns for 1 language(s) loaded.
+
+! LaTeX Error: File `jsarticle.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+No file ex1.aux.
+
+\openout1 = ex1.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{document}
+                  
+? 
+luaotfload | db : Font names database not found, generating new one.
+luaotfload | db : This can take several minutes; please be patient.(save: /home/
+kamano/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.l
+ua)(save: /home/kamano/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmr
+oman10-regular.luc)
+! Interruption.
+extract@font ...ont font@name external@font relax 
+                                                  font@name relax csname f@e...
+l.8 \end{document}
+                
+? q
+OK, entering batchmode...
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \end{document}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ [1
+Missing character: There is no ① (U+2460) in font nullfont!
+Missing character: There is no ② (U+2461) in font nullfont!
+Missing character: There is no ③ (U+2462) in font nullfont!
+Missing character: There is no ④ (U+2463) in font nullfont!
+Missing character: There is no ㋐ (U+32D0) in font nullfont!
+Missing character: There is no ㋑ (U+32D1) in font nullfont!
+Missing character: There is no ㋒ (U+32D2) in font nullfont!
+Missing character: There is no ㋓ (U+32D3) in font nullfont!
+Missing character: There is no 森 (U+68EE) in font nullfont!
+Missing character: There is no 鷗 (U+9DD7) in font nullfont!
+Missing character: There is no 外 (U+5916) in font nullfont!
+Missing character: There is no ， (U+FF0C) in font nullfont!
+Missing character: There is no 内 (U+5185) in font nullfont!
+Missing character: There is no 田 (U+7530) in font nullfont!
+Missing character: There is no 百 (U+767E) in font nullfont!
+Missing character: There is no 閒 (U+9592) in font nullfont!
+Missing character: There is no ， (U+FF0C) in font nullfont!
+Missing character: There is no 鄧 (U+9127) in font nullfont!
+Missing character: There is no 小 (U+5C0F) in font nullfont!
+Missing character: There is no 平 (U+5E73) in font nullfont!
+Missing character: There is no ， (U+FF0C) in font nullfont!
+Missing character: There is no 李 (U+674E) in font nullfont!
+Missing character: There is no 承 (U+627F) in font nullfont!
+Missing character: There is no 燁 (U+71C1) in font nullfont!
+] (./ex1.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 26 strings out of 494445
+ 100000,89155 words of node,token memory allocated
+ 284 words of node memory still in use:
+   1 hlist, 1 vlist, 2 glue, 2 attribute, 35 glue_spec, 2 attribute_list, 1 writ
+e nodes
+   avail lists: 2:15,3:3,4:1,5:17,6:2,7:36,8:1,9:8
+ 4274 multiletter control sequences out of 65536+600000
+ 15 fonts using 723239 bytes
+ 21i,4n,12p,57b,124s stack positions out of 5000i,500n,10000p,200000b,100000s
+Output written on ex1.pdf (1 page, 829 bytes).
+
+PDF statistics: 8 PDF objects out of 1000 (max. 8388607)
+ 4 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
