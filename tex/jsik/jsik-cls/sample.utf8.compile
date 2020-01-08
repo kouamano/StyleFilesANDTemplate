@@ -1,4 +1,6 @@
 #!/bin/bash
 platex sample.utf8.tex
-platex sample.utf8.tex
+platex sample.utf8
+bibtex sample.utf8
+platex sample.utf8
 dvipdfmx sample.utf8.dvi
