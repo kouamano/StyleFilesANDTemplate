@@ -4,7 +4,7 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{pLaTeX2e}
-\ProvidesClass{ujsik}[2009/3/10 ver 0.1]
+\ProvidesClass{jsik}[2009/3/10 ver 0.1]
 
 % packages include
 \input{jarticle.sty}
@@ -71,7 +71,7 @@
 {\hspace*{12pt}\@eabstract}
 \par
 \vspace{0.25cm}
-{キーワード: \@keywords}
+{$B%-!<%o!<%I(B: \@keywords}
 \bigskip
 \bigskip
     \setcounter{section}{0}%
