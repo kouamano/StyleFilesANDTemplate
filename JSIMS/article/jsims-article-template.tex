@@ -1,0 +1,344 @@
+\documentclass[a4j,twocolumn,twoside]{jsimsarticle}
+\def\blind{0}
+\def\absthaba{162mm}
+\def\texthaba{49zw}
+\def\longquotehaba{20zw}
+\def\fighaba{76mm}
+\def\longfighaba{\texthaba}
+\def\captionhaba{76mm}
+\def\legendhaba{76mm}
+\def\longcaptionhaba{162mm}
+\def\longlegendhaba{162mm}
+\def\captionlinespread{1.0}
+\def\noindentitem{-7mm}
+\def\myindent{\hspace{1zw}}
+\setlength{\columnsep}{20pt}
+\setlength{\topmargin}{5mm}
+\setlength{\textwidth}{\texthaba}
+\setlength{\textheight}{237.6mm} %238mm-240mm(著者による編集可)
+\setlength{\evensidemargin}{0pt}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\voffset}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{\baselineskip}
+\usepackage[dvips]{graphicx,epsfig,color}
+\usepackage{ascmac}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{jsimsfancyhdr}
+\usepackage{ifthen}
+\def\moku#1{\addtocounter{paragraph}{1} \noindent \textbf{(\theparagraph) #1}\\}
+\def\basesize{\fontsize{10.5}{11}\selectfont}
+\def\journalvol{N}
+\def\journalnum{N}
+\def\journaltitle{情報メディア研究 第{\journalvol}巻 第{\journalnum}号}
+\renewcommand{\refname}{注・文献}
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}
+%% (* ここから著者が著者情報を記入して下さい
+\def\sta{{$^{\star}$}}
+\def\stb{{$^{\star \star}$}}
+\def\stc{{$^{\star \star \star}$}}
+\def\std{{$^{\star \star \star \star}$}}
+\def\ste{{$^{\star \star \star \star \star}$}}
+\def\articletitle{『情報メディア研究』における論文等の執筆マニュアル}
+\def\articlesubtitle{-- 第3.1 \LaTeX 版 2008年12月8日改訂 --}
+\def\marktitle{論文等の執筆マニュアル}
+\def\earticletitle{Manual of writing a manuscript for articles in Joho Media Kenkyu}
+\def\earticlesubtitle{-- ver. 3.1 for \LaTeX --}
+\def\authors{天野晃\sta , 林洋平\stb}
+\def\eauthors{Kou AMANO\sta , Youhei HAYASHI\stb}
+\def\affliations{\sta 農業生物資源研究所 , \sta{$^,$}\stb 筑波大学}
+\def\eaffliations{\sta National Institute of Agrobiological Sciences , \sta{$^,$}\stb University of Tsukuba}
+\def\emails{\sta kamano@affrc.go.jp , \stb haya@slis.tsukuba.ac.jp}
+%% ここまで *)
+\pagestyle{fancy}
+%\fancyhead[CO]{\journaltitle}
+%\fancyhead[CE]{\marktitle}
+%\fancyhead[LO]{}
+%\fancyhead[LE]{}
+%\fancyhead[RO]{}
+%\fancyhead[RE]{}
+\lhead[]{}
+\chead[\journaltitle]{\marktitle}
+\rhead[]{}
+\lfoot[]{}
+%\cfoot[]{}
+\rfoot[]{}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+\twocolumn[ %%著者名/抄録部
+\begin{flushleft}【原著論文】\end{flushleft}
+%% (* making title %原則として著者が記入する必要はありません
+%% ブラインドの例
+\ifthenelse{\blind=0}{
+        \begin{center}
+        \large\articletitle \\ \normalsize\articlesubtitle \vspace{1mm}
+
+        \basesize\authors
+
+        \affliations
+
+        \emails
+        \end{center}
+}{
+        \begin{center}
+        \large\articletitle \\ \normalsize\articlesubtitle \vspace{1mm}
+        \vspace{15mm} %%適当に
+
+        %\basesize\authors 
+
+        %\affliations 
+
+        %\emails
+        \end{center}
+}
+%% end *)
+\basesize
+%% (* ここから著者が日本語抄録を記入して下さい
+\begin{center}
+\begin{tabular}{p{\absthaba}}
+\textgt{概要  }
+ここでは，「情報メディア学会誌論文等執筆要項」に基づいた論文のレイアウトについて説明します．
+この文書自体が「情報メディア学会誌論文等執筆要項」を兼ねていますので，このファイルをそのまま使用して，論文を作成することもできます(適当に文字列を置き換えてください)．
+なお、この文書は三輪眞木子氏，岸田和明氏による第３.1版，2006年7月25日改訂をもとに，主に\LaTeX による記述について説明しています．
+\end{tabular}
+\end{center}
+%% *)
+%% (* making einglish titile %原則として著者が記入する必要はありません
+%% ブラインドの例
+\ifthenelse{\blind=0}{
+        \begin{center}
+        \large\earticletitle \\ \normalsize\earticlesubtitle \vspace{2mm}
+
+        \basesize\eauthors
+
+        \eaffliations
+
+        \emails
+        \end{center}
+}{
+        \begin{center}
+        \large\earticletitle \\ \normalsize\earticlesubtitle \vspace{2mm}
+        \vspace{15mm} %%適当に
+
+        %\basesize\eauthors 
+
+        %\eaffliations
+
+        %\emails
+        \end{center}
+}
+%% *)
+\basesize
+%% (* ここから著者が英文抄録を記入して下さい
+\begin{center}
+\begin{tabular}{p{\absthaba}}
+\textbf{Abstract }
+The paper describes style and layout of manuscripts in the Journal of Information and Media Studies. You can use directly this file when you make your manuscript.
+\end{tabular}
+\end{center}
+\vspace{15mm} %本文と抄録部との間の調整
+%% *)
+]
+
+\basesize
+%% (* ここから著者が本文(引用も)を記入して下さい
+\section{はじめに}
+ここでは，「情報メディア学会誌論文等執筆要項」\cite{J01}に基づいた論文のレイアウトについて説明します．この文書自体が「情報メディア学会誌論文等執筆要項」を兼ねていますので，このファイルをそのまま使用して，論文を作成することもできます（適当に文字列を置き換えてください）．
+「投稿規程」および本稿をよくお読みいただき，原稿を作成いただければ幸いです．
+なお，本\LaTeX 文書の作成に必要なファイルは以下となります．
+\begin{itemize}
+\item jsimsarticle.cls
+\item jsimsarticle.sty
+\item jsimsfancyhdr.sty
+\item jsims-article-template.tex
+\item Table-youhou.tex
+\item fig-snapshot.tex
+\item fig-1-B.eps
+\end{itemize}
+
+\section{原稿用紙について}
+A4判を使用し，横書きとしてください．\LaTeX{}，または，ワードプロセッサを使用して原稿を作成してください(ハードコピーまたはイメージがそのまま版下原稿となります)．
+
+\section{全体的なレイアウトについて}
+\subsection{余白と段組および字数・行数}
+余白は上下25mm，左右20mmほどとってください．本文に先行するヘッダーの部分(タイトル，著者氏名，要約)については一段組で横45字縦45行とし，本文以降については二段組，横22字縦40行で設定してください．
+
+\subsection{文字サイズと字体}
+文字サイズはタイトル(日英とも)のみ12ポイントとし，他は10.5ポイントとしてください．
+
+字体は，日本語は明朝体，英語はCenturyを使ってください．数字は原則として半角(Century)を用いてください．
+
+\subsection{句読点}
+句読点は，ピリオドとカンマを使ってください．日本語の句点は全角のピリオド(．)読点は全角のカンマ(，)とします．
+英語の句点は半角のピリオドと半角の空白(. )読点は半角のカンマと半角の空白(, )としてください．
+
+\section{各構成要素別のレイアウトについて}
+\input{fig-snapshot.tex}
+
+\subsection{論文の構成要素}
+論文の構成要素は次のとおりです: 和文タイトル(およびサブタイトル)，和文著者氏名，和文著者所属，メールアドレス，和文要約(300-400字)，英文タイトル(およびサブタイトル)，英文(ローマ字)著者氏名，英文著者所属，メールアドレス，英文要約(100-150word)，本文，参考文献．
+
+\subsection{和文タイトル}
+12ポイントで中央寄せしてください．もしサブタイトルがあれば改行し，本タイトルとの間には空行を入れずに，中央寄せで記述してください．ただし，サブタイトルの文字のサイズは10.5ポイントとします．
+
+本\LaTeX{}スタイルシートを使用する場合，\linebreak{}\verb$\maketitle$は使わないで下さい．これは英文タイトルでも同様です．
+
+なお，和文タイトルの直前に，原稿種別を，【 】に入れて，記載してください．原稿種別は左寄せ，10.5ポイントとします。
+
+\subsection{和文著者氏名}
+10.5ポイントで中央寄せしてください．連名の場合は著者の間をカンマで区切ってください．
+
+\subsection{和文著者所属・メールアドレス}
+和文著者氏名に続いて，所属を中央寄せ，10.5ポイントで記述してください．複数著者の場合には，$^\star$，$^{\star \star}$，$^{\star \star \star}$，などの記号を使って，どの著者の所属であるかを明示してください．
+　その直後に，著者のメールアドレスを記載してください．複数著者の場合には，同様に，$^\star$，$^{\star \star}$，$^{\star \star \star}$，などの記号を使ってください．
+
+\subsection{和文要約}
+和文著者所属の後に1行空けてから，300-400字程度で，論文の内容を記述してください．文字のサイズは10.5ポイントとします．
+
+\subsection{英文タイトル・英文著者氏名・英文著者所属・メールアドレス・英文要約}
+和文要約の後に1行空けてから，英文タイトル(サブタイトル)，英文(ローマ字)著者氏名，英文著者所属，メールアドレス，英文要約を記述してください．レイアウトは和文の場合に準じます．ただし，字体はCenturyとし，英文要約の長さは100-150 wordsとします．
+
+\subsection{本文}
+英文要約の後に1行空けてから，本文を記述してください．ただし，本文は二段組です．
+\verb$\footnote$コマンド\footnote{ここにfootnoteが書かれる．}も使えます．
+
+\subsubsection{セクションタイトルとセクション記号}
+本文中の章，節，項，目などの立て方は，原則として，以下の例に従ってください．
+\\
+1 章タイトル(前後一行をあける)\\
+1.1 節タイトル(前後一行をあける)\\
+1.1.1 項タイトル(前一行をあける)\\
+(1) 目タイトル\\
+また，セクションタイトルおよびセクション記号は太字で強調してください．
+目タイトルは\\
+\verb$\def\moku#1{\addtocounter{paragraph}{1}%$ \\
+\verb$\noindent \textbf{(\theparagraph) #1}\\}$ \\
+と定義されています．
+
+\subsubsection{段落}
+段落は最初の行の頭を１字下げて書いてください．
+
+\subsubsection{図・表・写真}
+図・表・写真は，本文中の適当な箇所に挿入してください．
+\verb$\table$，\verb$\table*$，\verb$\tabular$，\verb$\tabular*$，\verb$\figure$，\verb$\figure*$などが自由に使えます．
+
+\moku{表について}
+表はその上部に「表○：表名」(○は表の一連番号)を記載してください．
+
+\moku{図・写真について}
+図・写真はその下部に「図○：図名」(○は図の一連番号)または「写真○：写真名」(○は写真の一連番号)を記載してください(例:図 \ref{Fig:snapshot})．
+
+\moku{図表等の注について}
+図表等に注を記す必要があるときは，肩付き番号1,2...として図表等の下部に付記してください．なお，他の資料から引用したものには，その出典を明記してください．
+\input{Table-youhou.tex}
+
+\subsubsection{文章・表記など}
+文章は原則として常用漢字と現代仮名づかいを用いてください．なお，以下の記号は特定の用法で使ってください(表 \ref{tb:kigou})．
+\begin{itemize}
+\item ( ) -- 説明・その他付加的に記述する事柄
+\item `` '' -- 引用箇所の表示
+\item \textit{Italic} -- 文中における欧文の書名・誌名
+\item 『 』-- 文中における和文の書名・誌名
+\end{itemize}
+
+\subsubsection{引用}
+本文中に他の文献からの引用を含める場合は，必ず引用符`` ''を用い，かつ末尾の右肩に半角の角カッコ[ ]に入れた一連番号をつけてください(この一連番号は「注・文献」の番号と対応させてください)．
+
+【例】
+
+``情報リテラシーの育成と情報アクセスの保障を教育機関が行っていくためには，理論的裏づけが必要である''\cite{S01}
+
+引用箇所を特に示す必要がある場合には，本文中で引用番号に続けて，該当ページを半角の丸カッコ( )に入れて指定してください．
+
+【例】
+
+``日本の情報メディア研究は，欧米のそれと異なり，未だに文献調査的研究が主流になっている'' \\ \cite{M01}(p.51)
+
+引用文が長く，独立した段落として表示する必要がある場合には，その前後に各一行の空白をおき，引用部分を全角2文字分字下げして記載してください．
+
+【例】
+
+\
+
+\hspace{0.5zw}\begin{tabular}{p{\longquotehaba}}
+ヨーロッパ人の航海士はまず海図に航海のプラン（道筋）を描き，そのプランに従って船のたどるコースを決める．航海中に予想外のことが起こってプランを変更する必要が生じた場合には，海図のプラン（道筋）を書き直し，新たなコースに沿って舵を取る\cite{S01}(p.78-79)．
+\end{tabular}
+
+\
+
+上記の場合は\verb$\tabular$を新しい段落ではじめることで対応しています．
+
+注と文献には一連番号を与え，本文中で同一文献を二度以上引用する場合には，既出の番号を用いてください(op. cit や ibid.は用いないでください)．
+
+\subsection{注・文献}
+\subsubsection{注・文献の記載方法}
+本文の後に1行空けてから「注・文献」という見出しを立て(10.5ptの太字)，その次の行から，注と文献とを一括して記載してください．この際に，すべて一字下げしてください(注・文献のリストの左のインデント幅を1字分とってください)．
+\verb$thebibliography$環境やBibTeXを利用するとこれらが自然に行えます．
+注・文献における文献の記載方法は，『科学技術情報流通技術基準SIST02書誌的情報の記述』\cite{SIST02}に準拠します．
+
+本文書の注・文献が例となっています (\cite{S01}から\cite{Amano01}は例示のため、本文書の内容とは関係ありません)．
+
+\moku{雑誌論文の例}
+\cite{S01} \cite{F01}
+
+\moku{単行書の例}
+\cite{M01} \cite{B01}
+
+\moku{論集中の論文の例}
+\cite{I01} \cite{L01}
+
+\moku{報告書の例}
+\cite{Amano01}
+
+\moku{Web版電子文献}
+\cite{SIST02}
+
+\section{文書の末尾について}
+文書(原稿)の末尾については，段組の段の長さが均等になるよう調整して下さい．
+
+\begin{thebibliography}{20}
+\bibitem{J01}情報メディア学会編集委員会. 情報メディア学会誌論文等執筆要綱, 2003
+
+\bibitem{S01}杉本重雄. メタデータについて:Dublin Coreを中心として. 情報の科学と技術. Vol. 49, No. 1, 1999, p.3-10. 
+\bibitem{F01}Fidel, R. 
+Qualitative Methods in Information Retrieval Research. Library \& Information Science Research. Vo.15, No.3, 1993, p.219-247.
+
+\bibitem{M01}三輪眞木子. 情報検索スキル:未知の問題を同解くか. 中公新書 1714. 東京, 中央公論社, 2003. 214p.
+\bibitem{B01}Bandula, A. Social Foundations of 
+Thoughts and Action. Englewood Cliffs, NJ: 
+Prentice-Hall, 1986, 544p. 
+
+\bibitem{I01}岩田茂子．“動機づけと学習者の主体性 ”．
+教育心理学：個に帰する教育のために．斉藤
+浩一郎，並木博編．東京，慶應義塾出版会， 
+1986. p.28-42.
+\bibitem{L01}Lasswell, H. D. “The structure and 
+Function of Communication in Society”. 
+Mass Communications. Wilbur, Schramm, 
+ed. 1980. p. 125-133. 
+
+%% ブラインドの例
+\ifthenelse{\blind=0}{
+\bibitem{Amano01}  天野晃. 自己組織化による{DNA}シークエンスの分類. {情報メディア学会第5回研究会発表資料}. 2003, p. 5-8.
+}{
+\bibitem{Amano01}  dummy1.
+}
+
+\bibitem{SIST02}科学技術情報流通技術基準SIST02書誌的情報の記述 $<$http://www.jst.go.jp/{\linebreak}SIST/handbook/sist02/sist02\_m.htm$>$, (参照2003-12-04)
+\end{thebibliography}
+%% *)
+
+%% (* 以下は編集で記入
+\vspace{0mm} %左カラムの空きの調整
+%\pagebreak
+\begin{flushright}
+(yyyy年mm月dd日　受付)\\
+(yyyy年mm月dd日　採録)\\
+(yyyy年mm月dd日　出版)\\
+\end{flushright}
+%% *)
+
+\end{document}
