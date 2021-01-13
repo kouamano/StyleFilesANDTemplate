@@ -1,7 +1,0 @@
-#!/bin/bash
-rm sample.utf8.dvi
-rm sample.utf8.pdf
-rm sample.utf8.log
-rm sample.utf8.aux
-rm sample.utf8.bbl
-rm sample.utf8.blg
