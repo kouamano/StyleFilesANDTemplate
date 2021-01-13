@@ -1,0 +1,76 @@
+%\documentclass[a4j,12pt,twocolumn]{jsik}
+\documentclass[12pt,a4paper,twocolumn,twoside]{jsik}
+
+\begin{document}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+\articletype{事例}
+\jtitle{\LaTeX による JSIK 学会誌向けの原稿テンプレート}
+\etitle{Paper template for JSIK with \LaTeX}
+\jauthor{堀 幸雄$^{1*}$, 高久 雅生$^{2}$, 江草 由佳$^{3}$}
+\eauthor{Yukio HORI$^{1*}$, Masao TAKAKU$^{2}$, Yuka EGUSA$^{3}$}
+\affiliation{
+$^{1}$ 香川大学総合情報センター \\
+Information Technology Center, Kagawa University \\
+〒760-0016 香川県高松市幸町 2-1 \\
+EMail: horiyuki@itc.kagawa-u.ac.jp \\
+$^{2}$ 著者 2 の所属 \\
+〒123-4567 著者 2 の住所\\
+English Affiliation for Author 2
+EMail: email-addr@example.jp \\
+$^{3}$ 著者 3 の所属 \\
+Information Technology Center, Kagawa University \\
+著者 3 の住所 \\
+EMail: author3@example.jp \\
+$*$ 連絡先著者
+}
+
+\jabstract{
+本稿は \LaTeX を用いて JSIK 学会誌の投稿を可能にした方式について述べる．
+JSIK の投稿様式に準じたクラスファイルを新たに作成した．
+本文書によりその書式を示す．
+}
+
+\eabstract{
+This paper presents the method to write thesises to the JSIK paper
+with \LaTeX. We made a \LaTeX class file keeping posting rules.
+}
+
+\keywords{
+テンプレート，LaTeX，電子化\\
+Keywords: template,\LaTeX
+}
+
+
+\maketitle
+\section{はじめに}
+jsik.cls は情報知識学会誌\cite{ex1}\cite{ex2}のための \LaTeX クラスファイルです．
+本ファイルはあくまでも個人用に作成した非公式なものです。
+本スタイルファイルは学会誌執筆要領に従うことを意図しておりますが、
+場合によっては誤りを含むことがあります。
+あくまでも編集委員および執筆要領の指示に従うようお願いします。
+また、スタイルファイルに何か問題等を見つけたら、堀までご連絡をお願いします。
+編集委員会および学会事務局への問い合わせはなさらないようお願いいたします。
+
+また本クラスファイルには高久氏の作成した情報知識学会誌 BibTeX用
+文献引用スタイルファイル jsik.bst
+\footnote{http://masao.jpn.org/software/jsik\_bst/} が同封されています．
+
+\bibliographystyle{jsik}
+\bibliography{takaku}
+
+%\begin{thebibliography}{0}
+%\bibitem{aaa} あいうえお
+%\end{thebibliography}
+
+%\begin{thebibliography}{1}
+%\bibitem{ex1}
+% 藤原譲: 「情報知識学試論」, 情報知識学会誌, Vol.~1, No.~1, pp. 3--10, 1990.
+%\bibitem{ex2}
+% 原正一郎; 安永尚志: 「国文学研究支援のためのSGML/XMLデータシステム」,
+%  情報知識学会誌, Vol.~11, No.~4, pp. 17--35, 2002.
+%\end{thebibliography}
+
+\end{document}
