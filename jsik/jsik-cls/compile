@@ -1,0 +1,6 @@
+#!/bin/bash
+platex sample.tex
+pbibtex sample
+platex sample
+platex sample
+dvipdfmx sample.dvi
